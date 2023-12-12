@@ -1,0 +1,43 @@
+* {
+  font-family: "Roboto", sans-serif;
+}
+
+.logo {
+  width: 56px;
+  height: 63px;
+}
+
+nav .menu {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  padding: 13px 70px;
+}
+nav .menu_item {
+  padding-right: 28px;
+  font-weight: 100;
+  cursor: pointer;
+  transition: 0.5s all;
+}
+nav .menu_item:hover {
+  color: #f45e0c;
+}
+nav .action_btns {
+  display: flex;
+  align-items: center;
+}
+nav .action_btns img {
+  display: block;
+  margin-right: 10px;
+}
+nav .action_btns button {
+  background-color: #106cf4;
+  border: none;
+  color: white;
+  width: 138px;
+  height: 40px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/*# sourceMappingURL=style.css.map */
